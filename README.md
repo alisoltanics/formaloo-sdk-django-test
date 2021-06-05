@@ -34,5 +34,5 @@ python manage.py runserver
 example: `python manage.py test --tag=PostViewSet`
 
 # Flow
-Every time that we create an user, a customer will create in formaloo, and when user likes or creates a post, we will create an activity for user in formaloo and give score to user.
+Every time that we create an user, a customer will create in formaloo, and when user likes or creates a post, we will create an activity for user in formaloo and give score to user (based on type of posts, `text`, `image`, `song`).
 
